@@ -8,7 +8,7 @@ OrionLib:MakeNotification({
     Time = 5
 })
 
-_G.Key = z
+_G.Key = tysmtysmiloveeveryone
 _G.KeyInput = "string"
 
 function Hub()
@@ -167,7 +167,7 @@ local Tab = Window:MakeTab({
 
 Tab:AddTextbox({
     Name = "Enter Key",
-    Default = "",
+    Default = "tysmtysmiloveeveryone",
     TextDisappear = true,
     Callback = function(Value)
         _G.KeyInput = Value
