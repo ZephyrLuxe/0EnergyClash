@@ -8,14 +8,14 @@ OrionLib:MakeNotification({
     Time = 5
 })
 
-_G.Key = tysmtysmiloveeveryone
+_G.Key = "tysmtysmiloveeveryone"
 _G.KeyInput = "string"
 
 function Hub()
 
 	if game.PlaceId == 13370783664 then
 		local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-		local Window = OrionLib:MakeWindow({Name = "Zephyr Hub | Anime Energy Clash Simulator", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+		local Window = OrionLib:MakeWindow({Name = "BaconBoss Hub | Anime Energy Clash Simulator", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 		
 		_G.hatch = true
 		_G.selecthatch = "Egg1"
@@ -85,7 +85,7 @@ function Hub()
 		
 		hatchTab:AddDropdown({
 			Name = "Select",
-			Default = "Egg23",
+			Default = "Egg1",
 			Options = {"Egg1", "Egg2", "Egg3", "Egg4", "Egg5", "Egg6", "Egg7", "Egg8", "Egg9", "Egg10", "Egg11", "Egg12", "Egg13", "Egg14", "Egg15", "Egg16", "Egg17", "Egg18", "Egg19", "Egg20", "Egg21", "Egg22", "Egg23", "Egg24", "Egg25", "Egg26", "Egg27"},
 			Callback = function(Value)
 				_G.selecthatch = Value
@@ -186,5 +186,5 @@ Hub()
 end
 })
 local Section = Tab:AddSection({
-    Name = "Key in: Nigga Bypass by ZephyrLuxe"
+    Name = "Key in: NIGGA ZEPHYRLUXE"
 })
